@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <main>
+        <nav class="menu">
+            <section class="menu__container">
+                <img class="" id="index__logo" width="150" src="img/logos/WhatsApp Image 2024-08-19 at 21.03.15.png" alt="logoRecreo">
+
+                <ul class="menu__links">
+                    <li class="menu__item">
+                        <a href="index.html" class="menu__link">Inicio</a>
+                    </li>
+
+                    <li class="menu__item menu__item--show">
+                        <a href="#" class="menu__link">Hombre<img src="assets/arrow.svg" class="menu__arrow"></a>
+
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="indumentariaH.html" class="menu__link menu__link--inside">Indumentaria</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="calzadoH.html" class="menu__link menu__link--inside">Calzado</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="accesoriosH.html" class="menu__link menu__link--inside">Accesorios</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link">Mujer<img src="assets/arrow.svg" class="menu__arrow"></a>
+
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="indumentariaM.html" class="menu__link menu__link--inside">Indumentaria</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="calzadoM.html" class="menu__link menu__link--inside">Calzado</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="accesoriosM.html" class="menu__link menu__link--inside">Accesorios</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link">Marcas <img src="assets/arrow.svg" class="menu__arrow"></a>
+
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="adidas.html" class="menu__link menu__link--inside">Adidas</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="nike.html" class="menu__link menu__link--inside">Nike</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="puma.html" class="menu__link menu__link--inside">Puma</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link">Disciplinas<img src="assets/arrow.svg" class="menu__arrow"></a>
+
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="futbol.html" class="menu__link menu__link--inside">Futbol</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="basquet.html" class="menu__link menu__link--inside">Basquet</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="voley.html" class="menu__link menu__link--inside">Voley</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="login.html" class="menu__link"> <img src="assets/carrito.svg"> </a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="login.html" class="menu__link"> <img src="assets/icons8-usuario-30.png"> </a>
+                    </li>
+                </ul>
+
+                <div class="menu__hamburguer">
+                    <img src="assets/menu.svg" class="menu__img">
+                </div>
+            </section>
+        </nav>  
+        <div class="form-container">
+            <h1>Iniciar sesión</h1>
+            <p>ingresa tus credenciales para acceder</p>
+            <form action="index.php" method="post" id="login-form">
+                <label for="user" class="sr-only">user</label>
+                <input type="text" name="user" id="user" placeholder="Nombre de usuario">
+                <label for="password" class="sr-only">password</label>
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+                <button type="submit">Iniciar sesión</button>
+                <p class="error escondido">Error al iniciar sesión</p>
+            </form>
+            <p>¿Todavía no tenés una cuenta? - <a href="signup.php" rel="noopener noreferrer">Registrate</a></p>
+        </div>
+    </main>
+</body>
+</html>
